@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: white;
+}
+
+header {
+background-color: #1A1A1A ;
+/* border: solid green; */
+display: flex;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 400;
+height: 15vh;
+align-items: center;
+}
+
+header .headerPrimeirasessao figure {
+/* border: solid blueviolet; */
+padding-top: 5px;
+}
+
+header .headerPrimeirasessao figure img {
+width: 8vw;
+height: 7vh;
+padding-left: px;
+}
+
+.headerPrimeirasessao {
+/* border: solid tomato; */
+display: flex;
+width: 72vw;
+justify-content: space-evenly;
+
+
+}
+
+ul {
+/* border: solid red; */
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 59vw;
+position: relative;
+right: 30px;
+
+
+}
+
+li{
+/* border: solid yellowgreen; */
+display: flex;
+justify-content:center ;
+justify-content: space-evenly;
+width: 10vw;
+}
+
+li:hover {
+   color:;
+   cursor: pointer;
+   transform: scale(160%);
+   font-weight: 800;
+}
+
+.headerSegundasessao {
+/* border: solid blue; */
+display: flex;
+
+justify-content: end;
+align-items: center;
+width: 28vw;
+}
+
+.headerSegundasessao img {
+width: 2vw;
+height: 5vh;
+}
+
+.headerSegundasessao figure {
+/* border: solid sienna;  */
+display: flex;
+justify-content: space-around;
+justify-content: ;
+width: 18vw;
+
+}
+
+.headerSegundasessao img:hover {
+    cursor: pointer;
+    transform: scale(130%);
+}
+
+main {
+/* border: solid purple; */
+background-color: #1A1A1A;
+}
+
+main .mainPrimeirasessao figure {
+/* border: solid palegreen; */
+width: 48vw;
+display: flex;
+justify-content: center;
+}
+
+.mainPrimeirasessao {
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+/* Parte extra */
+.sessaoBotoes {
+/* border: solid red; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+align-items: center;
+width: 21vw;
+height: 20vh;
+position: absolute;
+left: 4.8vw;
+top: 56vh;
+}
+
+input  {
+width: 9vw;
+height: 6vh;
+border-radius: 8px;
+background-color: #9A9A9A;
+font-family: 'Konkhmer Sleokchher', cursive;
+font-size: medium;
+font-weight: 500;
+border: 3px solid #9A9A9A;
+}
+
+input:hover {
+cursor: pointer;
+background-color: white;
+color: black;
+border: 3px solid white;
+}
+
+/* Fim */
+
+.mainSegundasessao {
+   /* border: solid pink; */
+display: flex;
+justify-content: space-around;
+}
+
+.mainSegundasessao img {
+width: 14.5vw;
+height: 20vh;
+border-radius: 8px;
+}
+
+.mainSegundasessao img:hover {
+    transform: scale(110%);
+}
+
+.mainTerceirasessao img {
+    width: 14.5vw;
+    height: 20vh;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.mainTerceirasessao {
+    /* border: solid pink; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainTerceirasessao img:hover {
+    transform: scale(110%);
+}
+
+footer {
+background-color: #1A1A1A;
+/* border: solid green; */
+display: flex;
+justify-content: space-around;
+height: 40vh;
+padding-top: 2vh;
+}
+
+.footerPrimeirasessao img {
+width: 7vw;
+height: 7vh;
+}
+
+.footerPrimeirasessao {
+border: solid red;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.footerPrimeirasessao img:hover {
+transform: scale(120%);
+}
+
+.footerGeral {
+    /* border: solid palevioletred; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+flex-direction: column;
+padding-top: 10vh;
+padding-bottom: 10vh;
+}
